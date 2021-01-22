@@ -4,7 +4,7 @@ Mocha is a feature-rich JavaScript test framework running on Node.js and in the 
 
 ### Create Project
 Navigate to the desired directory, and:
->npm init
+>npm init  
 >npm install --save-dev mocha chai
 
 Create a 'test' folder and edit *package.json* to use Mocha:
@@ -14,10 +14,10 @@ Create a 'test' folder and edit *package.json* to use Mocha:
     }
 
 ## Running Tests
->mocha test
->npm test
->mocha --reporter min
->mocha --reporter markdown
+>mocha test  
+>npm test  
+>mocha --reporter min  
+>mocha --reporter markdown  
 >mocha --reporter nyan
 
 Or we can automate running the test on saving the file:
